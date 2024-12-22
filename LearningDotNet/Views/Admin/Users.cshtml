@@ -36,8 +36,19 @@
                     <td>@item.Password</td>
                     <td>@item.Status</td>
                     <td>
-                        <a href="/Admin/UserStatus?id=@item.id&Status=Active" class="btn btn-success btn-sm">Activate</a>
-                        <a href="/Admin/UserStatus?id=@item.id&Status=Deactive" class="btn btn-danger btn-sm">Deactivate</a>
+                        @if (item.Status == "Active")
+                        {
+                            <a href="/Admin/UserStatus?id=@item.id&Status=Deactive" class="btn btn-danger btn-sm">Deactivate</a>
+                        }
+                        else if (item.Status == "Deactive")
+                        {
+                            <a href="/Admin/UserStatus?id=@item.id&Status=Active" class="btn btn-success btn-sm">Activate</a>
+                        }
+                        else
+                        {
+                            <a href="/Admin/UserStatus?id=@item.id&Status=Active" class="btn btn-success btn-sm">Activate</a>
+                            <a href="/Admin/UserStatus?id=@item.id&Status=Deactive" class="btn btn-danger btn-sm">Deactivate</a>
+                        }
                     </td>
                 </tr>
             }

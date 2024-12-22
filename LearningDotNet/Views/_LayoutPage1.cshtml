@@ -69,13 +69,9 @@
                     </div>
                     @if (Session["UserStatus"] != null && Session["UserStatus"].ToString() == "Active")
                     {
-                        <div class="user-login text-right col-md-4">
-                            <h3> @Session["UserName"]</h3>
-                        </div>
-
-                        <div class="user-login text-right col-md-4">
-                           
-                            <a  href="/Home/Logout">
+                        <div class="user-login text-right col-md-4" style="white-space: nowrap;">
+                            <h3 style="display: inline-block; margin-right: 10px; text-decoration: none;"> Usar Name: &nbsp;&nbsp;<b> @Session["UserName"]</b></h3>
+                            <a href="/Home/Logout" style="display: inline-block; margin-right: 10px; text-decoration: none;">
                                 <i class="fas fa-user"></i> Logout
                             </a>
                         </div>
@@ -83,18 +79,17 @@
                     }
                     else
                     {
-
-                <div class="user-login text-right col-md-4">
-                    <a class="popup-with-form" href="#register-form">
-                        <i class="fas fa-edit"></i> Register
-                    </a>
-                    <a class="popup-with-form" href="#login-form">
-                        <i class="fas fa-user"></i> Login
-                    </a>
-                    <a class="" href="/Admin/Index">
-                        <i class="fas fa-user"></i>Admin Login
-                    </a>
-                </div>
+                        <div class="user-login text-right col-md-4" style="white-space: nowrap;">
+                            <a class="popup-with-form" href="#register-form" style="display: inline-block; margin-right: 10px; text-decoration: none;">
+                                <i class="fas fa-edit"></i> Register
+                            </a>
+                            <a class="popup-with-form" href="#login-form" style="display: inline-block; margin-right: 10px; text-decoration: none;">
+                                <i class="fas fa-user"></i> Login
+                            </a>
+                            <a href="/Admin/Index" style="display: inline-block; text-decoration: none;">
+                                <i class="fas fa-user"></i> Admin Login
+                            </a>
+                        </div>
                     }
 
                 </div>

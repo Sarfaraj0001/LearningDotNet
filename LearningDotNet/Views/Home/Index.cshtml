@@ -1,4 +1,4 @@
-﻿
+﻿﻿
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/_LayoutPage1.cshtml";
@@ -62,6 +62,15 @@
     </div>
 </form>
 <!-- End Login Form -->
+<style>
+    .match {
+        color: green;
+    }
+
+    .mismatch {
+        color: red;
+    }
+</style>
 <!-- Start Register Form
 ============================================= -->
 <form action="Home/Index" method="post" id="register-form" class="mfp-hide white-popup-block">
@@ -111,14 +120,15 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="form-group">
-                    <input class="form-control" name="Password" placeholder="Password*" type="text">
+                    <input class="form-control" id="password" name="Password" placeholder="Password*" type="password">
                 </div>
             </div>
         </div>
         <div class="col-md-12">
             <div class="row">
                 <div class="form-group">
-                    <input class="form-control" name="ConfPassword" placeholder="Repeat Password*" type="text">
+                    <input class="form-control" id="confirmPassword" name="ConfPassword" placeholder="Confirm password*" type="password">
+                    <span id="message"></span>
                 </div>
             </div>
         </div>
@@ -132,6 +142,32 @@
         <p class="link-bottom">Are you a member? <a href="#">Login now</a></p>
     </div>
 </form>
+<script>
+    const password = document.getElementById('password');
+    const confirmPassword = document.getElementById('confirmPassword');
+    const message = document.getElementById('message');
+
+    confirmPassword.addEventListener('keyup', function () {
+        const passValue = password.value;
+        const confirmValue = confirmPassword.value;
+
+        if (confirmValue === '') {
+            message.textContent = ''; // Clear message if confirmPassword is empty
+            message.className = '';
+        } else if (passValue.startsWith(confirmValue)) {
+            if (passValue === confirmValue) {
+                message.textContent = 'Passwords match!';
+                message.className = 'match';
+            } else {
+                message.textContent = 'Keep typing...';
+                message.className = 'match';
+            }
+        } else {
+            message.textContent = 'Passwords do not match.';
+            message.className = 'mismatch';
+        }
+    });
+</script>
 <!-- End Register Form -->
 <!-- Start Banner
 ============================================= -->

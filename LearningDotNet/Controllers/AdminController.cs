@@ -11,7 +11,7 @@ namespace LearningDotNet.Controllers
 {
     public class AdminController : Controller
     {
-        UserProfileEntities1 db = new UserProfileEntities1();
+        LearningDotNetEntities db = new LearningDotNetEntities();
         // GET: Admin
 
         public ActionResult Index()
@@ -34,9 +34,7 @@ namespace LearningDotNet.Controllers
         public ActionResult AdminLogout()
         {
             // Clear the session
-            Session.Clear(); // Removes all keys and values from the session
-            Session.Abandon(); // Abandons the current session
-
+            Session["AdminId"] = null;
             TempData["msg"] = "You have been logged out successfully!";
             return RedirectToAction("Index");
         }
@@ -211,45 +209,45 @@ namespace LearningDotNet.Controllers
         }
 
         //Updating only image in database 
-        [HttpPost]
-        public ActionResult UpdateUserImage(int userId, HttpPostedFileBase profileImage)
-        {
-            if (profileImage != null && profileImage.ContentLength > 0)
-            {
-                // Retrieve the existing user from the database
-                var existingUser = db.Users.Find(userId);
-                if (existingUser != null)
-                {
-                    // Convert the uploaded file to binary data
-                    using (var memoryStream = new MemoryStream())
-                    {
-                        profileImage.InputStream.CopyTo(memoryStream);
-                        existingUser.ProfileImage = memoryStream.ToArray(); // Store as binary data
-                    }
+        //[HttpPost]
+        //public ActionResult UpdateUserImage(int userId, HttpPostedFileBase profileImage)
+        //{
+        //    if (profileImage != null && profileImage.ContentLength > 0)
+        //    {
+        //        // Retrieve the existing user from the database
+        //        var existingUser = db.Users.Find(userId);
+        //        if (existingUser != null)
+        //        {
+        //            // Convert the uploaded file to binary data
+        //            using (var memoryStream = new MemoryStream())
+        //            {
+        //                profileImage.InputStream.CopyTo(memoryStream);
+        //                existingUser.ProfileImage = memoryStream.ToArray(); // Store as binary data
+        //            }
 
-                    // Update only the ProfileImage field
-                    db.Entry(existingUser).Property(u => u.ProfileImage).IsModified = true;
+        //            // Update only the ProfileImage field
+        //            db.Entry(existingUser).Property(u => u.ProfileImage).IsModified = true;
 
-                    // Save changes to the database
-                    db.SaveChanges();
+        //            // Save changes to the database
+        //            db.SaveChanges();
 
-                    return RedirectToAction("Index", "Admin");
-                }
-                else
-                {
-                    // Handle case when the user is not found
-                    ModelState.AddModelError("", "User not found.");
-                }
-            }
-            else
-            {
-                // Handle case when no file is selected or file is invalid
-                ModelState.AddModelError("", "Please select a valid image file.");
-            }
+        //            return RedirectToAction("Index", "Admin");
+        //        }
+        //        else
+        //        {
+        //            // Handle case when the user is not found
+        //            ModelState.AddModelError("", "User not found.");
+        //        }
+        //    }
+        //    else
+        //    {
+        //        // Handle case when no file is selected or file is invalid
+        //        ModelState.AddModelError("", "Please select a valid image file.");
+        //    }
 
-            // Return the same view in case of failure
-            return View();
-        }
+        //    // Return the same view in case of failure
+        //    return View();
+        //}
 
         //deleting only image from database 
         [HttpPost]

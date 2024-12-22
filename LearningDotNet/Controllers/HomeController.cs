@@ -9,7 +9,7 @@ namespace LearningDotNet.Controllers
 {
     public class HomeController : Controller
     {
-        UserProfileEntities1 db = new UserProfileEntities1();
+        LearningDotNetEntities db = new LearningDotNetEntities();
         // GET: Home
         [HttpGet]
         public ActionResult Index()

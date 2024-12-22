@@ -13,10 +13,10 @@ namespace LearningDotNet.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class UserProfileEntities1 : DbContext
+    public partial class LearningDotNetEntities : DbContext
     {
-        public UserProfileEntities1()
-            : base("name=UserProfileEntities1")
+        public LearningDotNetEntities()
+            : base("name=LearningDotNetEntities")
         {
         }
     
@@ -25,8 +25,8 @@ namespace LearningDotNet.Models
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Admin> Admins { get; set; }
         public virtual DbSet<Register> Registers { get; set; }
         public virtual DbSet<User> Users { get; set; }
-        public virtual DbSet<Admin> Admins { get; set; }
     }
 }
