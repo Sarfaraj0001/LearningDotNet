@@ -29,7 +29,6 @@
           <ScalarProperty Name="Email" ColumnName="Email" />
           <ScalarProperty Name="Phone" ColumnName="Phone" />
           <ScalarProperty Name="Mobile" ColumnName="Mobile" />
-          <ScalarProperty Name="Username" ColumnName="Username" />
           <ScalarProperty Name="Address" ColumnName="Address" />
           <ScalarProperty Name="ProfileImage" ColumnName="ProfileImage" />
         </MappingFragment>

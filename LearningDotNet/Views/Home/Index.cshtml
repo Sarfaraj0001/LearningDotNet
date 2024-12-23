@@ -146,6 +146,7 @@
     const password = document.getElementById('password');
     const confirmPassword = document.getElementById('confirmPassword');
     const message = document.getElementById('message');
+    const form = document.getElementById('register-form');
 
     confirmPassword.addEventListener('keyup', function () {
         const passValue = password.value;
@@ -163,6 +164,14 @@
                 message.className = 'match';
             }
         } else {
+            message.textContent = 'Passwords do not match.';
+            message.className = 'mismatch';
+        }
+    });
+
+    form.addEventListener('submit', function (event) {
+        if (password.value !== confirmPassword.value) {
+            event.preventDefault(); // Prevent form submission
             message.textContent = 'Passwords do not match.';
             message.className = 'mismatch';
         }

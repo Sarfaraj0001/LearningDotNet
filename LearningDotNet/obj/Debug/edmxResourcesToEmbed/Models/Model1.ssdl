@@ -13,23 +13,22 @@
       <PropertyRef Name="id" />
     </Key>
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Email" Type="nvarchar(max)" />
-    <Property Name="Username" Type="nvarchar(max)" />
-    <Property Name="Password" Type="nvarchar(max)" />
-    <Property Name="Status" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar" MaxLength="255" />
+    <Property Name="Username" Type="nvarchar" MaxLength="255" />
+    <Property Name="Password" Type="nvarchar" MaxLength="255" />
+    <Property Name="Status" Type="varchar" MaxLength="255" />
   </EntityType>
   <EntityType Name="Users">
     <Key>
       <PropertyRef Name="UserId" />
     </Key>
     <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="FullName" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="255" Nullable="false" />
     <Property Name="Phone" Type="nvarchar" MaxLength="20" />
     <Property Name="Mobile" Type="nvarchar" MaxLength="20" />
-    <Property Name="Username" Type="nvarchar(max)" />
-    <Property Name="Address" Type="nvarchar(max)" />
-    <Property Name="ProfileImage" Type="nvarchar(max)" />
+    <Property Name="Address" Type="nvarchar" MaxLength="255" />
+    <Property Name="ProfileImage" Type="varbinary(max)" />
   </EntityType>
   <EntityContainer Name="LearningDotNetModelStoreContainer">
     <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />

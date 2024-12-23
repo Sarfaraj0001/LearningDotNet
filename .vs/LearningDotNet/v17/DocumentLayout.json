@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\LearningDotNet\\",
+  "WorkspaceRootPath": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|c:\\users\\user\\desktop\\learningdotnet\\learningdotnet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|C:\\Users\\user\\Desktop\\LearningDotNet\\learningdotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|c:\\users\\user\\desktop\\learningdotnet\\learningdotnet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|c:\\users\\user\\desktop\\learningdotnet\\learningdotnet\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|C:\\Users\\user\\Desktop\\LearningDotNet\\learningdotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|c:\\users\\sarfaraj\\onedrive\\desktop\\learningdotnet\\learningdotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|C:\\Users\\user\\Desktop\\LearningDotNet\\learningdotnet\\views\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\views\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\learningdotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|C:\\Users\\user\\Desktop\\LearningDotNet\\learningdotnet\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\learningdotnet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\learningdotnet\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\learningdotnet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\learningdotnet\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\learningdotnet\\views\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33FEEB00-2111-44B0-AE06-950DFE2C7371}|LearningDotNet\\LearningDotNet.csproj|solutionrelative:learningdotnet\\views\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,64 +42,25 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Models\\Model1.edmx",
-              "RelativeDocumentMoniker": "LearningDotNet\\Models\\Model1.edmx",
-              "ToolTip": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Models\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "LearningDotNet\\Models\\Model1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-12-22T21:11:25.914Z",
-              "EditorCaption": " [Diagram1]"
+              "DocumentIndex": 6,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "LearningDotNet\\Views\\_LayoutPage1.cshtml",
+              "ToolTip": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "LearningDotNet\\Views\\_LayoutPage1.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEgAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T10:39:15.969Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Web.config",
-              "RelativeDocumentMoniker": "LearningDotNet\\Web.config",
-              "ToolTip": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Web.config",
-              "RelativeToolTip": "LearningDotNet\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-22T21:07:30.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Users.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\Admin\\Users.cshtml",
-              "RelativeDocumentMoniker": "LearningDotNet\\Views\\Admin\\Users.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\Admin\\Users.cshtml",
-              "RelativeToolTip": "LearningDotNet\\Views\\Admin\\Users.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-22T15:37:33.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_LayoutPage1.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\_LayoutPage1.cshtml",
-              "RelativeDocumentMoniker": "LearningDotNet\\Views\\_LayoutPage1.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\_LayoutPage1.cshtml",
-              "RelativeToolTip": "LearningDotNet\\Views\\_LayoutPage1.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEgAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-22T10:39:15.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "LearningDotNet\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "LearningDotNet\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAgwJoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-22T10:37:40.11Z",
               "EditorCaption": ""
@@ -108,11 +69,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LearningDotNet\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Controllers\\HomeController.cs",
               "RelativeToolTip": "LearningDotNet\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T10:34:45.237Z",
               "EditorCaption": ""
@@ -121,14 +82,49 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Controllers\\AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "LearningDotNet\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\LearningDotNet\\LearningDotNet\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Controllers\\AdminController.cs",
               "RelativeToolTip": "LearningDotNet\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwCQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T20:44:40.745Z",
+              "WhenOpened": "2024-12-21T20:44:40.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Web.config",
+              "RelativeDocumentMoniker": "LearningDotNet\\Web.config",
+              "ToolTip": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Web.config",
+              "RelativeToolTip": "LearningDotNet\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvzoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-22T21:07:30.416Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "LearningDotNet\\Views\\Admin\\Users.cshtml",
+              "ToolTip": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "LearningDotNet\\Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T15:37:33.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "LearningDotNet\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\SARFARAJ\\OneDrive\\Desktop\\LearningDotNet\\LearningDotNet\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "LearningDotNet\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-22T22:01:10.552Z"
             }
           ]
         }
